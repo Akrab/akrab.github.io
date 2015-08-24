@@ -1,50 +1,66 @@
 <!DOCTYPE html>
 <html>
+ <head>
+  <meta charset="utf-8">
+  <title>Пример страницы</title>
+  <style>
+  @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+html {
+  height:100%;
+  background-image: linear-gradient(to right top, #8e44ad 0%, #3498db 100%);
+}
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Mygithubpage : ">
+nav {
+  max-width: 960px;
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+  padding: 60px 0;
+}
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+nav ul {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
 
-    <title>Akrab</title>
-  </head>
+nav ul li {
+  display: inline-block;
+}
 
-  <body>
+nav ul li a {
+  padding: 18px;
+  font-family: "Open Sans";
+  text-transform:uppercase;
+  color: rgba(0, 35, 122, 0.5);
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/Akrab/mygithubpage">View on GitHub</a>
-
-          <h1 id="project_title">Akrab</h1>
-          <h2 id="project_tagline"></h2>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator 
-is the easiest way to create beautiful 
-pages for all of your projects. Author your page content here 
-using GitHub Flavored Markdown, select a template crafted by 
-a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-	</section>
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Mygithubpage maintained by <a href="https://github.com/Akrab">Akrab</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 35, 122, 0.7);
+}
+  
+  </style>
+ </head>
+ <body>
+  <nav>
+  <ul>
+    <li>
+      <a href="#">Home</a>
+    </li>
+    <li>
+      <a href="#">About</a>
+    </li>
+    <li>
+      <a href="#">Services</a>
+    </li>
+    <li>
+      <a href="#">Contact</a>
+    </li>
+  </ul>
+</nav>
+ </body>
 </html>
